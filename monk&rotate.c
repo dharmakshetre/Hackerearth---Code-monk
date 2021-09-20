@@ -25,14 +25,11 @@ int main()
       {
           b[i] = a[i];
       }
-
       for(i=l;i<n;i++)
       {
           c[j] = a[i];
           j++;
-      }
-      
-      
+      }     
       for(i=0;i<g;i++)
       {
           a[i]=c[i];
@@ -46,9 +43,7 @@ int main()
       {
           printf("%d ",a[i]);
       } 
-      printf("\n");
-      
-      
+      printf("\n");   
     }
   }
     
